@@ -92,3 +92,24 @@ pytest tests -v
 ```
 
 All 16 unit and integration test suites pass with 100% coverage across configuration, models, ingestion, classification, corregedoria auditing, and cloud sync execution.
+
+---
+
+## 🌟 Acknowledgements & Open-Source Honorable Mentions
+
+This project stands on the shoulders of giants in the open-source community. Special gratitude and honorable mentions to:
+
+- [sigma67/ytmusicapi](https://github.com/sigma67/ytmusicapi): Outstanding unofficial Python API for YouTube Music created and maintained by **@sigma67**. Without its battle-tested session management, library parsing, and playlist chunking capabilities, this automation would not be possible.
+- **ArchiveTune**: The privacy-focused, sleek open-source client for YouTube Music whose clean alphabetical navigation inspired this granular Portuguese taxonomy architecture.
+- [Pydantic](https://github.com/pydantic/pydantic): The gold standard for data modeling and structured schema parsing in modern Python.
+- [Textualize/rich](https://github.com/Textualize/rich): Developed by **@willmcgugan**, powering the beautiful terminal reports, tables, and progress indicators throughout the Corregedoria QA stage.
+- [Requests](https://github.com/psf/requests): Python's HTTP library for human beings.
+- [Pytest](https://github.com/pytest-dev/pytest): The resilient testing framework powering our 100% automated test coverage.
+
+---
+
+## 📄 License
+
+This project is proud to be open-source and is licensed under the [MIT License](LICENSE) © 2026 Luska.  
+You are free to use, modify, distribute, and integrate this software in both personal and commercial projects.
+
