@@ -1,0 +1,44 @@
+# ==============================================================================
+# YouTube Music Multi-Agent Taxonomist — Hardened Git Exclusion List
+# ==============================================================================
+
+# 1. Critical Authentication & Credentials (ZERO LEAK POLICY)
+.secrets/
+*.token
+browser.json
+oauth.json
+headers_auth.json
+.env
+.env.*
+*.env
+
+# 2. User Data, Checkpoints & Extracted Playlists
+data/
+*.json.bak
+
+# 3. Logs & Diagnostics
+logs/
+*.log
+
+# 4. Python Environment & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# 5. Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 6. IDE & OS Artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
